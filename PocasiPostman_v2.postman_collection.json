@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "f5e613e2-0e33-4a80-8eab-1da0743ebb65",
+		"name": "PocasiPostman_GitHub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25380888"
+	},
+	"item": [
+		{
+			"name": "Pocasi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.open-meteo.com/v1/forecast?latitude=50.25&longitude=14.43&current_weather=true",
+					"protocol": "https",
+					"host": [
+						"api",
+						"open-meteo",
+						"com"
+					],
+					"path": [
+						"v1",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "50.25"
+						},
+						{
+							"key": "longitude",
+							"value": "14.43"
+						},
+						{
+							"key": "current_weather",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
