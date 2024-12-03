@@ -1,0 +1,17 @@
+meta {
+  name: Pocasi
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.open-meteo.com/v1/forecast?latitude=50.25&longitude=14.43&current_weather=true
+  body: none
+  auth: none
+}
+
+params:query {
+  latitude: 50.25
+  longitude: 14.43
+  current_weather: true
+}
